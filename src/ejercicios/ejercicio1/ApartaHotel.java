@@ -23,10 +23,10 @@ public class ApartaHotel extends Reserva{
     }
     //no podemos poner tres o mas personas en una habitación
     //hacemos un if para impedirlo
-    public void setNumeroHabitaciones(int numeroHabitaciones) {
+    /*public void setNumeroHabitaciones(int numeroHabitaciones) {
         if (numeroHabitaciones > this.numeroHabitaciones)
             this.numeroHabitaciones = numeroHabitaciones;
-    }
+    }*/
 
     public void setLimpieza(boolean limpieza) {
         this.limpieza = limpieza;
@@ -47,20 +47,7 @@ public class ApartaHotel extends Reserva{
 
     @Override
     public String toString() {
-        String sPension = "";
-        switch (getPension()){
-            case PENSION_COMPLETA:
-                sPension = "pensión completa";
-                break;
-            case MEDIA_PENSION:
-                sPension = "medio pensión";
-                break;
-            case SIN_PENSION:
-                sPension = "sin pensión";
-                break;
-            default:
-                break;
-        }
+
         /*String sLimpieza =  "limpieza incluida";
         if (! limpieza)
             sLimpieza = "limpieza incluida"*/
@@ -68,6 +55,6 @@ public class ApartaHotel extends Reserva{
         return String.format("APARTAHOTEL: %s, %d personas, %d noches, reserva %d/%d/%d, %s, %d habitaciones, %s",
                 getNombreCliente(), getNumeroPersonas(), getNumeroNoches(),
                 getFechaReserva().getDayOfMonth(), getFechaReserva().getMonthValue(), getFechaReserva().getYear(),
-                sPension, numeroHabitaciones, sLimpieza);
+                Helper.getTipoPension(getPension()), numeroHabitaciones, sLimpieza);
     }
 }
