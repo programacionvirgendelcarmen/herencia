@@ -1,0 +1,6 @@
+package ejercicios.ejercicio2;
+
+public enum Especialidad {
+    MATEMATICAS, INGLES, LENGUA_LITERATURA, FISICA_QUIMICA, BIOLOGIA_GEOLOGIA,
+    INFORMATICA, EDUCACION_FISICA
+}
