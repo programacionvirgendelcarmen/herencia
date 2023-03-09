@@ -52,7 +52,7 @@ public class Persona {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Persona persona = (Persona) o;
-        return dni.equals(persona.dni);
+        return dni.equalsIgnoreCase(persona.dni);
     }
 
     @Override

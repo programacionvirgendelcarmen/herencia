@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54ffe064-bfda-477f-b224-176ac964977c" name="Changes" comment="Resuelto ejercicio Reserva">
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/ejercicio2/Especialidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/ejercicio2/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/ejercicio2/Profesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/ejercicio2/ProfesorInterino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicios/ejercicio2/ProfesorTitular.java" afterDir="false" />
+    <list default="true" id="54ffe064-bfda-477f-b224-176ac964977c" name="Changes" comment="Ejercicio 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios/ejercicio2/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/ejercicio2/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicios/ejercicio2/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicios/ejercicio2/Profesor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678110038695</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ejercicio 2">
+      <created>1678200217708</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678200217708</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -89,6 +93,7 @@
     <MESSAGE value="Fin del tema" />
     <MESSAGE value="Inicio ejercicios del tema" />
     <MESSAGE value="Resuelto ejercicio Reserva" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resuelto ejercicio Reserva" />
+    <MESSAGE value="Ejercicio 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 2" />
   </component>
 </project>

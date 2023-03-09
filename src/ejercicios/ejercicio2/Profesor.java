@@ -1,6 +1,7 @@
 package ejercicios.ejercicio2;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Profesor extends Persona{
     private Especialidad especialidad;
@@ -24,4 +25,6 @@ public class Profesor extends Persona{
         return String.format("%s,%s",
                 super.toString(),especialidad);
     }
+
+
 }
